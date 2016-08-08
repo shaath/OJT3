@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [stockAccSuite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.stockAccounting.Tests.testngsuupc">
+        <methods>
+          <include name="stockAcc_Login"/>
+          <include name="stockAcc_Logout"/>
+          <include name="stockAcc_Launch"/>
+        </methods>
+      </class> <!-- com.stockAccounting.Tests.testngsuupc -->
+      <class name="com.stockAccounting.Tests.stockAccUomCre">
+        <methods>
+          <include name="UomCrea" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.stockAccounting.Tests.stockAccUomCre -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [stockAccSuite] -->
